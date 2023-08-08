@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* custom added CSS */
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 350px;
+  height: 300px;
+
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+  
+}
+
+.your-count {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.count-show {
+  color: #000;
+  font-family: Roboto Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  /* for the main button */
+  width: 145px;
+  height: 50px;
+  margin: 0 10px 0 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #1876d0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+/* for inside text */
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.message-shown-field{
+  width: 350px;
+  height: 50px;
+  color: #000;
+text-align: center;
+font-family: Roboto Mono;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
